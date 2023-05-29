@@ -22,7 +22,7 @@ def main():
     menu = ["Home","EDA","Prediction"]
     choice = st.sidebar.selectbox("Menu",menu)
     if choice == "Home":
-        st.subheader('Home Menu')
+        st.subheader('Prediksi Iris - Sekretariat Jenderal')
         st.image(Image.open('iris.png'))
         st.write("""
                 ###### APP Content:
