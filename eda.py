@@ -23,7 +23,7 @@ def normalize(data):
 def run_eda_app():
     st.subheader('EDA Section')
 
-    df = load_data('iris.csv')
+    df = load_data('iris_dataset.csv')
 
     df = rename_columns(df)
     
