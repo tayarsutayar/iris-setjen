@@ -13,10 +13,10 @@ def run_predict_app():
     model=load_model()
     with st.sidebar:
         st.title("Features")
-        sepal_length = st.slider('Sepal Length',0, 10, value=7.5)
-        sepal_width = st.slider('Sepal Width',0, 10, value=7.5)
-        petal_length = st.slider('Petal Length',0, 10, value=7.5)
-        petal_width = st.slider('Petal Width',0, 10, value=7.5)
+        sepal_length = st.slider('Sepal Length',0, 10, value=4)
+        sepal_width = st.slider('Sepal Width',0, 10, value=4)
+        petal_length = st.slider('Petal Length',0, 10, value=4)
+        petal_width = st.slider('Petal Width',0, 10, value=4)
         
      
     if st.button("Click here to predict"):
