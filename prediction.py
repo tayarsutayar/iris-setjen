@@ -43,6 +43,6 @@ def run_predict_app():
                 st.image(Image.open('virginica.png'), width=460)
         
         with col2:
-            pred_probability_score = pred_prob[0][1]*100
+            pred_probability_score = pred_prob[0][0]*100
             st.write("Prediction Probability Score : {:.2f} %".format(pred_probability_score))
               
